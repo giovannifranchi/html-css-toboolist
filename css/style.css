@@ -70,6 +70,7 @@ buttons-section
     font-size: 15px;
     padding: 10px;
     border-radius: 10px;
+    border-style: solid;
 }
 
 #task-btn {
@@ -90,6 +91,103 @@ todo-section
 -------------------------------
 */
 
+#task-sector {
+    margin-top: 3px;
+    padding: 30px 0;
+}
+
+.todos {
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.todos > .todos-title,
+.todos > .todos-list {
+    margin-bottom: 10px;
+}
+
+.todos-list > .todos-item {
+    margin-bottom: 10px;   
+}
+
+.todos-title {
+    font-size: 20px;
+}
+
+.todos-title::before{
+    content: '\25BC';
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.todos-list {
+    list-style: none;
+    font-weight: 400;
+}
+
+.todos-item {
+    list-style-position: inside;
+}
+
+
+
+.item-box {
+    display: inline-block;
+    height: 20px;
+    margin-left: 5px;
+    font-size: 10px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: white;
+}
+
+
+
+.green-todo::before {
+    content: '\2713';
+    color: green;
+    font-size: 13px;
+    padding: 0 3px;
+    margin-right: 5px;
+    border: 1px solid green;
+    border-radius: 50%;
+}
+
+.red-todo::before {
+    content: '\2715';
+    color: red;
+    font-size: 13px;
+    padding: 0 3px;
+    margin-right: 5px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.item-blue {
+    background-color: #47ADF1;
+}
+
+.item-purple {
+    background-color: #9C72E4;  
+}
+
+.item-green {
+    background-color: #65C1AA;
+}
+
+.item-orange {
+    background-color: #F29E33;
+}
+
+.item-violet {
+    background-color: #D863A1;  
+}
+
+.item-pea {
+    background-color: #B0C926;
+}
 
 
 
