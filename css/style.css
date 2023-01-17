@@ -1,0 +1,41 @@
+/*
+-------------------------------
+reset e body
+-------------------------------
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F6F8F9;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/*
+-------------------------------
+header
+-------------------------------
+*/
+
+header {
+    background-color: white;
+    padding: 10px 0 10px 20px;
+}
+
+#header-title {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+
+
