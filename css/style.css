@@ -26,6 +26,7 @@ header
 header {
     background-color: white;
     padding: 10px 0 10px 20px;
+    margin-bottom: 30px;
 }
 
 #header-title {
@@ -33,9 +34,63 @@ header {
     vertical-align: middle;
 }
 
-#logo{
+#logo {
     vertical-align: middle;
 }
+
+/*
+-------------------------------
+main
+-------------------------------
+*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.main-section {
+    width: 100%;
+    background-color: white;
+}
+
+/*
+-------------------------------
+buttons-section
+-------------------------------
+*/
+
+#buttons-sector {
+    padding: 15px 0 15px 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn {
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#task-btn {
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+    color: white;
+}
+
+#section-btn {
+    background-color: white;
+    border-color: #C8CED3;
+    color: #C8CED3;
+}
+
+/*
+-------------------------------
+todo-section
+-------------------------------
+*/
+
+
 
 
 
